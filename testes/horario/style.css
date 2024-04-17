@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background-color: rgba(28, 158, 158, 0.323);
+}
+main {
+    position: relative;
+    height: 96vh ;
+}
+section {
+    background-color: rgba(12, 40, 40, 0.329);
+    position: absolute;
+ 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

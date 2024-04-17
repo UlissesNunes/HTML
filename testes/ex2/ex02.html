@@ -10,14 +10,21 @@
         body {
             position:relative;
             height: 96vh;
-            background-color: rgb(248, 240, 255);
+            background-color: rgba(51, 6, 91, 0.753);
             font-size: 1.4em;
+        }
+        main form {
+            background-color: rgba(229, 206, 234, 0.907);
+            width: 540px;
+            height: 200px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.307);
         }
         form {
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50% , -50%);
+            width: 400px;
             
         }
 
@@ -25,23 +32,45 @@
             text-align: center;
             font-variant: small-caps;
             margin-top: 78px;
+            background-color: rgba(229, 206, 234, 0.904);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.307);
+
+        }
+       form > p#enviar > input  {
+            background-color: rgba(229, 206, 234, 0.525);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.307);
+
         }
 
     </style>
 </head>
 <body>
-    <h1>formulário</h1>
-    <form action="script.js" method="post">
+    <main>
+        <h1>formulário</h1>
+        <form action="script.js" method="post">
+            <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="exe.:Jóse"  size="19">
+            </p>
+            <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome" placeholder="exe.: dos santos" required minlength="4" maxlength="19" size="12"></p>
+        
+                <label for="inasc">Data de nascimento:</label>
+                <input type="number" name="nac" id="inasc" required max="8"  placeholder="dd/mm/aaaa">
+                <p>
+                    Sexo:
+                    <label for="imasc"></label>
+                    <input type="radio" name="sex" id="imas" checked required> Masculino
+                    <label for="ifem"></label>
+                    <input type="radio" name="sex" id="ifem"> Feminino
 
-        <p><label for="inome">Nome:</label>
-        <input type="text" name="nome" id="inome" size="19">
-        </p>
-        <p><label for="isobrenome">Sobrenome:</label>
-        <input type="text" name="sobrenome" id="isobrenome" minlength="4" maxlength="19" size="12"></p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar tudo">
+                  <p><div id="res"></div></p>
+                </p>
+            <p id="enviar">
+                <input type="button" value="Verificar" onclick="Verificar()">
+                <input type="reset" value="Limpar tudo">
+            </p>
+        </form>
 
-
-    </form>
+    </main>
 </body>
 </html>
