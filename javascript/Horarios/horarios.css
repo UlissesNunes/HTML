@@ -28,6 +28,12 @@ section > div#container {
     background-color: rgb(15, 26, 35);
     width: 350px;
     height: 350px;
+
+}
+
+p {
+    text-align: center;
+    
 }
 footer {
     color: rgb(9, 33, 33);
