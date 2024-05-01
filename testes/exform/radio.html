@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+
+    <style>
+
+        body{
+            background-color: rgba(91, 100, 100, 0.441);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+        }
+        fieldset{
+            background-color: rgb(255, 255, 255);
+        }
+        legend{
+            color: #0c1f52;
+            font-weight: bolder;
+            font-size: 1.5em;
+            font-variant: small-caps;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+<fieldset>
+    <legend>Você é...</legend>
+    <form action="gnj.php">
+        <p>
+            <label for="nom">Insira seu nome</label>
+            <input type="text" name="nome" id="nom">
+        </p>
+        <p>
+            <label for="tel">Telefone</label> 
+            <input type="tel" name="tel" id="tel"
+            pattern="^\(d\{2}\)\d{4,5,6}-\d{4}$" placeholder="(71)99534-4433">
+        </p>
+        <input type="radio" name="sex" id="mas" value="Masculino" > <label for="mas">Masculino</label>
+        <input type="radio" name="sexo" id="fem" value="Feminino"> <label for="fem">Feminino</label>
+        
+    </form>
+</fieldset>
+<input type="submit" value="Enviar">
+<input type="reset" value="Apagar tudo">
+    </main>
+
+</body>
+</html>
