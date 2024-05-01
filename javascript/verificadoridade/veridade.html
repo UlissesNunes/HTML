@@ -9,20 +9,34 @@
 </head>
 <body>
     <header>
-       <h1>Horário do dia</h1> 
+       <h1>Verificador de idade</h1> 
     </header>
     <section> 
-       
-        <div id="container"> a mensagem vai aqui
-       </div>
-        <div id="fotos"> <img src="imagens/foto-manha.jpg.jpg" alt="foto">
-       </div>
+      <div>
+        <p><label for="nas">Ano de nascimento: </label><input type="number" name="nas" id="nas" maxlength="10" min="1" placeholder="dd/mm/aaaa" required></p>
+        <p>
+            Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex"
+             id="fem">
+             <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <input type="submit" value="Verificar" onclick="verificar()">
+            <input type="reset" value="apagar tudo">
+        </p>
+    </div>
+      <div id="res">
+       Prencha os dados acima e veja o resultado
+    </div>
+
+
+        
       </section>
     <footer>
         <p>&copy;Desenvolvido por Ulisses</p>
     </footer>
-    <script>
-        window.alert('vou lutar pra dominar isso. ')
-    </script>
+   <script src="veridade.js"></script>
 </body>
 </html>

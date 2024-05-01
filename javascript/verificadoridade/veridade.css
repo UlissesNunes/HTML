@@ -7,10 +7,13 @@ body {
 }
 * {
     text-align: center;
-    padding: 25px;
+   
     
 }
 
+input {
+    padding: 10px;
+}
 
 section {
     background-color: rgb(255, 255, 255);
@@ -20,6 +23,7 @@ section {
     height: 400px;
     margin: auto;
     border-radius: 15px;
+    padding: 20px;
 
 
 }
@@ -39,9 +43,10 @@ div > img {
 }
 
 p {
-    text-align: center;
+    text-align: left;
     
 }
-footer {
+footer p {
     color: rgb(9, 33, 33);
+    text-align: center;
 }
