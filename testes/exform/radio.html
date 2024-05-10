@@ -21,31 +21,111 @@
             font-size: 1.5em;
             font-variant: small-caps;
         }
-        
+        label#test p {
+           
+            margin-top: 50px;
+        }
+       section{
+        margin: 50px;
+       } 
     </style>
 </head>
 <body>
-    <main>
-<fieldset>
-    <legend>Você é...</legend>
-    <form action="gnj.php">
-        <p>
-            <label for="nom">Insira seu nome</label>
-            <input type="text" name="nome" id="nom">
-        </p>
-        <p>
-            <label for="tel">Telefone</label> 
-            <input type="tel" name="tel" id="tel"
+     <main>
+        <fieldset>
+        <legend>Você é...</legend>
+            <form action="gnj.php">
+                 <p>
+                 <label for="nom">Insira seu nome</label>
+                <input type="text" name="nome" id="nom">
+                 </p>
+                 <p>
+                 <label for="tel">Telefone</label> 
+                  <input type="tel" name="tel" id="tel"
             pattern="^\(d\{2}\)\d{4,5,6}-\d{4}$" placeholder="(71)99534-4433">
-        </p>
-        <input type="radio" name="sex" id="mas" value="Masculino" > <label for="mas">Masculino</label>
-        <input type="radio" name="sexo" id="fem" value="Feminino"> <label for="fem">Feminino</label>
+                 </p>
+                  <input type="radio" name="sexo" id="mas" value="Masculino" > <label for="mas">Masculino</label>
+                 <input type="radio" name="sexo" id="fem" value="Feminino"> <label for="fem">Feminino</label>
         
-    </form>
-</fieldset>
-<input type="submit" value="Enviar">
-<input type="reset" value="Apagar tudo">
-    </main>
+             </form>
+         </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar tudo">
 
+
+
+    
+        <label  id="test" name="test"><p>Insira a sua mensagem</p></label>
+         <textarea name="test" id="test" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+
+
+
+     <section>
+
+        <label for="est">Estado</label>
+        <select name="est" id="est">
+             <optgroup label="Escolha seu estado"> 
+                <option value="Bahia">Bahia</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Alagoas">alagonas</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Rio grande do norte">Rio grande do norte</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Espírito Santo">Espírito Santo</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+                <option value="Acre">Acre</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="">Distrito Federal</option>
+              
+            </optgroup>
+
+        </select>
+      </section>
+
+      <section>
+             
+            <label for="profis">Qual a sua porfissão</label>
+            <input type="text" name="profis" id="profis" list="iprof"> 
+            <datalist id="iprof">
+                <option>Advogado</option>
+                <option>Musico</option>
+                <option>Medico</option>
+                <option>Juiz</option>
+                <option>Administrador</option>
+                <option>Pintor</option>
+                <option>Engenheiro</option>
+                <option>Desenvolvedor</option>
+                <option>Recepcionista</option>
+                <option>Dentista</option>
+                <option>Policial</option>
+            </datalist>
+            <input type="submit" value="Enviar">
+
+
+
+
+
+
+
+      </section>
+
+    </main>
 </body>
 </html>
