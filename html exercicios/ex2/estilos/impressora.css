@@ -1,0 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    font-size: 0.9em;
+}
+
+nav  > a {
+    text-decoration: none;
+    display: none;
+
+}
+
+main::after {
+    content: 'Esse artigo pertence a Um-empresarial e todos os direitos estão reservados';
+} 
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+main {
+    width: 100%;
+}
