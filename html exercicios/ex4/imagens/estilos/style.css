@@ -1,0 +1,63 @@
+
+/*IMPRESSO*/
+@media print {
+    img#Vcelular {display: none;}
+    img#Vtablet {display: none;}
+    img#Vimpresso {display: block;}
+    img#Vpc {display: none;}
+    img#Vtv {display: none;}
+
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        font-size: 1.5em;
+        color: black;
+
+    }
+
+    main{
+        border: 2px solid black;
+    }
+}
+/*TABLET*/
+@media  screen and (min-width: 768px) and (max-width:1024px) {
+
+    img#Vcelular {display: none;}
+    img#Vtablet {display: block;}
+    img#Vimpresso {display: none;}
+    img#Vpc {display: none;}
+    img#Vtv {display: none;}
+
+
+   body {
+    background-image: url(../back-tablet.jpg);
+    
+   } 
+   
+}
+/*PC*/
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    img#Vcelular {display: none;}
+    img#Vtablet {display: none;}
+    img#Vimpresso {display: none;}
+    img#Vpc {display: block;}
+    img#Vtv {display: none;}
+
+  body {
+    background-image: url(../back-pc.jpg);
+  }
+}
+
+/*TV*/
+@media  screen and (min-width:1441px) {
+    img#Vcelular {display: none;}
+    img#Vtablet {display: none;}
+    img#Vimpresso {display: none;}
+    img#Vpc {display: none;}
+    img#Vtv {display: block;}
+
+   body {
+    background-image: url(../back-tv.jpg);
+   } 
+}
+/*1025 até 1440*/
