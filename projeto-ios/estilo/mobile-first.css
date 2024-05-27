@@ -54,8 +54,8 @@ menu ul {
  
    
 header a {
-    display: block;
-    text-decoration: none;
+    display: block; 
+    text-decoration: none ;
    color: var(--cor-branca);
    text-align: center;
    background-color: #5e84a6;
@@ -74,6 +74,12 @@ i#menu {
     background-color: #48657e;
     text-align: center;
     color: var(--cor-branca);
+}
+
+i#menu:hover {
+    background-color: var(--cor-branca);
+    color: var(--cor4);
+    cursor: pointer;
 }
 
 main {
