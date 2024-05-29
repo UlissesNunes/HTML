@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilo/mobile-first.css">
     <link rel="stylesheet" href="estilo/geral.css" media="all">
 </head>
-<body>
+<body onresize="tammanhoDiferente()">
     
         <header>
             
@@ -20,7 +20,7 @@
                     <li><a href="#">Sobre nós</a></li>
                     <li><a href="#">Fale conosco</a></li>
                     <li><a href="#">Quem foi Steve jobs?</a></li>
-                    <li><a href="#">Porque escolher iOS?</a></li>
+                    <li><a href="#" id="esconder">Porque escolher iOS?</a></li>
                 </ul>
             </menu>
             
@@ -40,6 +40,8 @@
            <img src="imagens/mesa-iphone-full.jpg" alt="jpg" srcset="imagens/mesa-iphone-full.jpg">
         </picture>
 
+        
+
 
         <h2>O Nascimento do iOS</h2>
         
@@ -54,8 +56,7 @@
                 <source media="(max-width:898px )" srcset="imagens/stevej-apple-700.jpg">
                <img src="imagens/stevej-apple-800.jpg" alt="jpg" srcset="imagens/stevej-apple-800.jpg">
             </picture>
-        
-        
+            
         <h2>
             Impacto Cultural e Econômico
             
@@ -76,10 +77,12 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/taTmpYQ_3jk?si=Dtvo_StUBy3vAQMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
             </div>
 
+            <span><strong>Steve Jobs em apresentação do primeiro iPhone em 2007</strong></span>
+
         <section>
            
             
-            <p>O iOS trouxe várias inovações que definiram novos padrões para sistemas operacionais móveis: </p> 
+            <p class="detalhe">O iOS trouxe várias inovações que definiram novos padrões para sistemas operacionais móveis: </p> 
                  <p> <strong>Interface de Usuário Multi-Touch</strong>: Permitia aos usuários interagir com o dispositivo através de gestos intuitivos, como deslizar, pinçar e tocar.</p> 
             
             <p> <strong>Apple store</strong>: Lançada em 2008, a App Store revolucionou a distribuição de software, permitindo que desenvolvedores de todo o mundo criassem e distribuíssem aplicativos diretamente para os usuários do iPhone.</p>
@@ -114,7 +117,7 @@
     
     </main>
         <footer>
-                 <p>criado por @Ulisses</p>
+                 <p>Site criado por <a href="https://www.instagram.com/ulissesxz/" target="_blank" rel="external" class="footer">@Ulisses</a></p>
          </footer>
    <script src="ios.js"></script>
 </body>
