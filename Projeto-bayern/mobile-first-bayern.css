@@ -1,6 +1,31 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+#bh {display: inline;}
+#bl {display: inline;}
+#b2020 {display: none;}
+#bt {display: inline;}
+#bb {display: none;}
+
+i#menu {
+    display: inline-block;
+   margin-left: 70vw;
+   cursor: pointer;
+   padding: 10px;
+   margin-bottom:10px;
+}
+
+
+
+:root {
+    --cor1: #750400;
+    --cor2: #4D0300;
+}
+
 
 * {
   margin:0px;
@@ -9,8 +34,6 @@
 }
 
   body{
-    
-   
   
     background-image:linear-gradient(85deg, #4D0300, #750400) ; 
     width: 98%;
@@ -21,16 +44,16 @@
     background-color:#fff;
     padding: 20px;
     width: 90%;
-    margin: 4px 2px 9px 9px;
+    margin: 4px 2px 5px 9px;
   }
   
   nav {
     background-color:#fff;
     margin: auto;
-    padding: 10px px;
+    padding: 10px 20px;
     text-shadow: 0px 0px 1px rgba(0,0,0,0.466);
     margin-top:30px;
-    margin-bottom: 1px;
+    margin-bottom: -20px;
     
   }
   
@@ -39,22 +62,24 @@
     width: 100px;
   }
   nav > a{
- 
-    margin: 15px;
+    
+    padding: 8px;
+    margin-right: 15px;
     color:  #4D0300;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     width: 100%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.366);
     
   }
   
   nav > a:hover {
     text-decoration: underline;
     background-color: #750400;
-    color: white;
-    padding:8px;
-    border-radius:3px;
+    color: rgba(194, 197, 231, 0.849);
+    padding:16px;
+    border-radius:9px;
     transition-duration:1s;
     
   }
@@ -67,7 +92,22 @@
     font-size: 3em;
     font-family:'Noto+Serif', serif;
     font-weight:bold;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.466);
+    text-shadow: 2px 1px 1px rgba(0,0,0,0.366);
+    margin-bottom: 40px;
+  }
+
+  h2{
+    color: #000000;
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-indent:2px;
+    background-image:linear-gradient(45deg, rgba(255, 107, 100, 0.5), transparent 49%);
+    font-family:'Noto+Serif', serif; 
+    border-radius: 10px;
+    font-size:1.6em;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.436);
+    padding: 7px;
   }
   
   main {
@@ -90,15 +130,36 @@
      text-decoration: none;
      padding:8px;
     border-radius:3px;
-    font-style: bolder;
+    font-style: bold;
   }
+  main  a:hover {
+ 
+    color:#750400;
+    text-decoration: underline;
+    padding:9px;
+   border-radius:3px;
+   font-style: bold;
+   background-color: #ffffff;
+ }
   
   
   main img {
-    width:75%;
+    display: inline-block;
+    width:77%;
     margin:auto;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  p{
+    text-indent:25px;
+    text-align: left;
+    text-align: justify;
+    line-height:1.6em;
+    font-size: 1.1em;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    padding:6px;
   }
 
 
@@ -112,22 +173,11 @@ picture.trofeu {
   }
   
   
-   h2{
-     color: #000000;
-     text-align:left;
-     margin:15px;
-     text-indent:2px;
-     background-image:linear-gradient(45deg, rgba(203, 61, 53, 0.575), transparent 55%);
-     font-family:'Noto+Serif', serif; 
-     font-weight:bolder;
-     font-size:1.6em;
-     text-shadow: 0px 0px 1px rgba(0,0,0,0.466);
-     padding-left:1px;
-   }
+ 
    h3{
      color:#000000;
      background-color:#fff;
-     font-size: 1.2em;
+     font-size: 1.3em;
      font-weight:bold;
      text-shadow: 0px 1px 1px rgba(0,0,0,0.466);
      padding:10px;
@@ -153,6 +203,7 @@ picture.trofeu {
      margin: -10 -1 0 -1;
      border-radius:10px 10px 0px 0px;
      color:#fff;
+     font-size: 1,1em;
      
      
      
@@ -183,45 +234,28 @@ picture.trofeu {
    footer{
     
      color: #d6c0b9 ;
-     background-image:linear-gradient(to top, #4d0300 50%, #ffffff00);
+     background-image:linear-gradient(to top, #4d0300 80%, #ffffff00);
      width: 100%;
      box-shadow: 1px 1px 3px 3px rgba(10, 10, 10, 0.216);
-     height: 30px;
+     height: 80px;
      margin: 10px auto 0px;
      text-align: center;
      padding:1px;
      
+     
    }  
    footer p{
+    margin-top: 50px;
      margin: auto;
      text-align: center;
+     line-height: 100%;
+     padding: 10px;
      
    }
-   
-   p{
-     text-indent:25px;
-     text-align: left;
-     text-align: justify;
-     line-height:1.7em;
-     font-size: 1.1em;
-     font-style:normal;
-     font-family: 'Roboto Condensed', sans-serif;
-     padding-right:15px;
-   }
+
    
   
-   #clicavel {
-     background-color: #750400;
-     color: white;
-     margin: 2px;
-   }
-   
-   #clicavel:hover {
-     background-color: floralwhite;
-     color:#750400;
-     margin: 20px;
-     
-   }
+  
    
    .linkdestaque{
      text-decoration:none;
@@ -243,5 +277,5 @@ picture.trofeu {
   
  strong{
    color: #750400;
-   text-shadow: 0 0 20 rgba(0,0,0,0.466);
+   text-shadow: 1px 0px 20px rgba(0,0,0,0.466);
  }

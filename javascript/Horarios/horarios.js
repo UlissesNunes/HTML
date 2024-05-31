@@ -9,6 +9,7 @@ var minutos = data.getMinutes()
 var segundos = data.getSeconds()
 container.innerHTML = `Agora são ${horas} horas ${minutos} minutos e ${segundos} segundos `
 
+
 if(horas >= 0 || horas >= 12) {
     
     foto.src = 'foto-manha.jpg.jpg'
