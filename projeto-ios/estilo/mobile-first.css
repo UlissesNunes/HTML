@@ -26,6 +26,7 @@
 
  body {
     background-color:var(--cor1);
+    
    
 }
 
@@ -93,9 +94,9 @@ i#menu:hover {
 main {
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: auto;
-    width: 87vw;
+    width: 80vw;
 }
 
 main h2 {
@@ -129,7 +130,7 @@ div.video {
     position: relative;
     background-color: var(--cor5);
     margin-bottom: 20px;
-    padding: 20;
+    padding: 10;
     margin: 0px -15px 30px -15px;
     padding-bottom: 58%;
 }
@@ -146,9 +147,10 @@ div.video > iframe {
 }
 
 p.detalhe {
-    margin-top: 55px;
+    margin-top: 45px;
     margin-bottom: -1px;
-    font-weight: 600;
+    font-weight: 500;
+    text-indent: 10px;
 }
 
 aside {

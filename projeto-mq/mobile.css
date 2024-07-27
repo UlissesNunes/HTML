@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* rgb(42, 55, 49) */
+body , html {
+    width: 96vw;
+    height: 95vh;
+    background-color: rgb(42, 55, 49);
+   
+}
+
+header {
+    background-color: rgb(123, 161, 143); 
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(108, 139, 124) , rgb(39, 88, 64) ) ;
+    color: rgb(231, 255, 244);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.441);
+    padding: 10px;
+}
+
+menu ul {
+    list-style: none;
+}
+
+menu a {
+    display: block;
+    text-align: center;
+    padding: 4px;
+    border-top: 1px solid rgb(42, 55, 49);
+    background-color: rgb(143, 186, 166);
+    text-decoration: none;
+    color: rgb(42, 55, 49);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.441);
+    border-radius: 3.5px;
+}
+
+menu a:hover {
+    background-color: rgb(42, 54, 48);
+    color: rgb(231, 255, 244);
+}
+
+main {
+    width: 87vw;
+    background-color: white;
+    margin: auto;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+main h2,h3 {
+    padding: 7px;
+    color: rgb(38, 52, 46);
+}
+
+main p {
+    text-align: justify;
+    text-indent: 15px;
+    margin-bottom: 20px;
+    padding: 2px;
+    
+}
+
+article a {
+    text-decoration: none;
+    color: rgb(39, 88, 64);
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.677);
+}
+
+article a:hover {
+    background-color: rgb(231, 255, 244);
+    color:rgb(106, 165, 139)
+}
