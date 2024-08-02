@@ -1,0 +1,38 @@
+
+
+
+@media  screen and ( min-width: 768px ) {
+
+    span#menu-r {
+        display: none;
+
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu  li {
+        display: inline-block;
+       
+
+    }
+
+    menu a {
+        background-color:  rgb(123, 159, 142);
+        border-radius: 2px;
+        border:none;
+        padding: 7px;
+        margin-right: 7px;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.236);
+    }
+    menu a:hover {
+        padding: 11px;
+        transition-duration: 0.9s;
+        text-shadow: 1px 1px 1px rgb(59, 99, 58);
+    }
+
+ main {
+    width: 80%;
+ }
+}
