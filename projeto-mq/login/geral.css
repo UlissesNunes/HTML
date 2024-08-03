@@ -18,12 +18,12 @@
     }
 
     div#formu > h1 {
-        font-size: 1.6em;
+        font-size: 1.5em;
         
     }
     
     div#formu > p {
-        font-size: 1em;
+        font-size: .8em;
     }
 }
 
@@ -52,12 +52,12 @@
     }
 
     div#formu > h1 {
-        font-size: 2em;
+        font-size: 1.7em;
         
     }
     
     div#formu > p {
-        font-size: 1.1em;
+        font-size: 1em;
     }
     
 }
