@@ -151,13 +151,49 @@ form a.buton {
 
 }
 
+form a.buton- {
+    
+    display: inline-block;
+    height: 22px;
+    width: 50%;
+    padding-top: 5px;
+    margin-top: 6px;
+    background-color: white;
+    border: 1px solid var(--cordestaque);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    color: var(--cordestaque);
+    font-size: .7em;
+}
+
 form a.buton:hover {
     background-color: rgb(255, 157, 0);
     color: var(--cordestaque);
     font-weight: bold;
-    padding-top:1px ;
+    padding-top:4px ;
+}
+
+form a.buton-:hover {
+    background-color: rgb(255, 157, 0);
+    color: var(--cordestaque);
+    font-weight: bold;
+    padding-top:5px ;
 }
 
 span#msg {
     font-size: .9em;
+}
+
+span.letradestaque {
+    font-size: .7em;
+    text-align: center;
+    display: none;
+    color: var(--cordestaque);
+}
+
+span.mobile {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: var(--cordestaque);
 }

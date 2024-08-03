@@ -1,8 +1,8 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
     section#login {
-        width: 75vw;
-        height: 77vh;
+        width: 80vw;
+        height: 265px;
     }
 
     section#login > div#img {
@@ -25,6 +25,17 @@
     div#formu > p {
         font-size: .8em;
     }
+
+    span.letradestaque {
+        font-size: .7em;
+        text-align: center;
+        display: inline-block;
+        color: var(--cordestaque);
+        
+    }
+    span.mobile {
+        font-size: .6em;
+        display: none; }
 }
 
 @media screen and (min-width:993px) {
@@ -36,7 +47,7 @@
 
     section#login {
         width: 85vw;
-        height: 80vh;
+        height: 300px;
     }
 
     section#login > div#img {
@@ -58,6 +69,18 @@
     
     div#formu > p {
         font-size: 1em;
+    }
+    span.letradestaque {
+        font-size: .7em;
+        text-align: center;
+        display: inline-block;
+        color: var(--cordestaque);
+        
+    }
+
+    span.mobile {
+        font-size: .6em;
+        display: none;
     }
     
 }
