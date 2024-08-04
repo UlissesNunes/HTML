@@ -111,6 +111,10 @@ div#area > label {
     display: none;
 }
 
+div#area > input:focus-within {
+    background-color: rgb(237, 237, 237);
+}
+
  form input[type=submit] {
     display: block;
     width: 99%;
