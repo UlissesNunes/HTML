@@ -1,16 +1,16 @@
 
 function carregar() {
-    var base = document.querySelector('div#base')
+    const base = document.querySelector('div#base')
     var foto = document.querySelector('div#imagem')
     var horario = document.querySelector('h1#horarios')
-    var data = new Date()
+    const data = new Date()
     var hora = data.getHours()
     var minuto = data.getMinutes()
     var segundo = data.getSeconds()
     var milisegund = data.getMilliseconds()
-    //var hora = 19
+    //var hora = 
     base.innerHTML = `Agora são ${hora} horas ${minuto} minutos e ${segundo} segundos e ${milisegund} milisegundos`
-    if (hora >= 3 && hora < 12) {
+    if (hora >= 1 && hora < 12) {
         //bom dia
         horarios.innerHTML = 'Bom dia..'
         foto.innerHTML = '<img src="imagens/pexels-mateusz-17606731.jpg" alt="imagem" id="imagem">'
