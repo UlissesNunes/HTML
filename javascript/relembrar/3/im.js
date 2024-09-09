@@ -16,7 +16,7 @@ function verificar() {
                 let genero = ''
                 //Criação do elemento 'IMG' e ligação dos input com DOM
              if(sexom.checked) {
-                  genero = 'homem'
+                  genero = 'homem' 
                 
                  if (nascimento >= 0 && nascimento <= 9) {
                     //criança
