@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX1</title>
+
+
+<style>
+ body{
+   
+    font-size: .8em;
+
+    
+ }
+
+ div.container{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: aqua;
+
+ }
+
+ div.itens {
+    
+    text-align: center;
+    padding:5px;
+    flex: auto;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: rgb(158, 158, 225);
+
+ }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="itens">ASTON MARTIN</div>
+        <div class="itens">FERRARI</div>
+        <div class="itens">VOLKSWAGEN</div>
+        <div class="itens">AUDI</div>
+        <div class="itens">MERCEDES</div>
+        <div class="itens">BMW</div>
+    </div>
+</body>
+</html>
