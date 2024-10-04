@@ -16,17 +16,21 @@
 
  div.container{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     background-color: aqua;
-    
-
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
  }
 
  div.itens {
     
     text-align: center;
     padding:5px;
-    flex: auto;
+   height: 50vh;
+   width: 50vw;
     border: 1px solid black;
     display: inline-block;
     background-color: rgb(158, 158, 225);
@@ -39,11 +43,7 @@
 <body>
     <div class="container">
         <div class="itens">ASTON MARTIN</div>
-        <div class="itens">FERRARI</div>
-        <div class="itens">VOLKSWAGEN</div>
-        <div class="itens">AUDI</div>
-        <div class="itens">MERCEDES</div>
-        <div class="itens">BMW</div>
+
     </div>
 </body>
 </html>
