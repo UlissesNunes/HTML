@@ -8,31 +8,67 @@
     <link rel="stylesheet" href="style/mobile-first.css" >
     <link rel="stylesheet" href="style/web-second.css"  >
 </head>
-<body>
+<body onresize= "tammanhoDiferente()">
     <header>
         <h1>Meu site</h1>
       
-        <nav id="opçoes">
-            <a href="#">Opção 1</a>
-            <a href="#">Opção 2</a>
-            <a href="#">Opção 3</a>
-            <a href="#">Opção 4</a>
-            <a href="#">Opção 5</a>
+        <nav id="itens">
+            <a href="#"  id="link">Opção 1</a>
+            <a href="#" id="link">Opção 2</a>
+            <a href="#" id="link">Opção 3</a>
+            <a href="#" id="link">Opção 4</a>
+            <a href="#" id="link" class="partiu">Opção 5</a>
         </nav>
-        <i id="menu" class="material-symbols-outlined " onclick="MudouDitamanho()">menu</i>
+        <i id="menu" class="material-symbols-outlined " onclick="toggleMenu()">menu</i>
     </header>
     <main>
         <article>
             <h2>História</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptate non, minus ex, obcaecati labore sapiente saepe nihil nemo omnis hic dignissimos sequi delectus, aliquam vitae aliquid laborum veniam amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, quis ipsum eaque eum nihil aperiam libero repellat corrupti excepturi nam, deleniti necessitatibus praesentium blanditiis distinctio? Fuga cumque officiis accusamus debitis?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni consequuntur fugit in! Illum doloremque, est quam et nostrum accusamus suscipit excepturi maxime! Incidunt nisi quod tenetur, enim facilis omnis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni consequuntur fugit in! Illum doloremque, est quam et nostrum accusamus suscipit excepturi maxime! Incidunt nisi quod tenetur, enim facilis omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio fuga repellat fugiat consequatur eos nihil voluptatem. Porro inventore earum neque perferendis at, iste atque sapiente deserunt? Consectetur, nemo odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. A reiciendis quaerat accusantium nostrum et iste magni. Porro minus eaque natus, velit praesentium qui consequuntur possimus rem placeat iste amet eligendi!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptate non, minus ex, obcaecati labore sapiente saepe nihil nemo omnis hic dignissimos sequi delectus, aliquam vitae aliquid laborum veniam amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, quis ipsum eaque eum nihil aperiam libero repellat corrupti excepturi nam, deleniti necessitatibus praesentium blanditiis distinctio? Fuga cumque officiis accusamus debitis?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni consequuntur fugit in! Illum doloremque, est quam et nostrum accusamus suscipit excepturi maxime! Incidunt nisi quod tenetur, enim facilis omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio fuga repellat fugiat consequatur eos nihil voluptatem. Porro inventore earum neque perferendis at, iste atque sapiente deserunt? Consectetur, nemo odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. A reiciendis quaerat accusantium nostrum et iste magni. Porro minus eaque natus, velit praesentium qui consequuntur possimus rem placeat iste amet eligendi!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptate non, minus ex, obcaecati labore sapiente saepe nihil nemo omnis hic dignissimos sequi delectus, aliquam vitae aliquid laborum veniam amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, quis ipsum eaque eum nihil aperiam libero repellat corrupti excepturi nam, deleniti necessitatibus praesentium blanditiis distinctio? Fuga cumque officiis accusamus debitis?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni consequuntur fugit in! Illum doloremque, est quam et nostrum accusamus suscipit excepturi maxime! Incidunt nisi quod tenetur, enim facilis omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio fuga repellat fugiat consequatur eos nihil voluptatem. Porro inventore earum neque perferendis at, iste atque sapiente deserunt? Consectetur, nemo odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. A reiciendis quaerat accusantium nostrum et iste magni. Porro minus eaque natus, velit praesentium qui consequuntur possimus rem placeat iste amet eligendi!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptate non, minus ex, obcaecati labore sapiente saepe nihil nemo omnis hic dignissimos sequi delectus, aliquam vitae aliquid laborum veniam amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, quis ipsum eaque eum nihil aperiam libero repellat corrupti excepturi nam, deleniti necessitatibus praesentium blanditiis distinctio? Fuga cumque officiis accusamus debitis?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni consequuntur fugit in! Illum doloremque, est quam et nostrum accusamus suscipit excepturi maxime! Incidunt nisi quod tenetur, enim facilis omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio fuga repellat fugiat consequatur eos nihil voluptatem. Porro inventore earum neque perferendis at, iste atque sapiente deserunt? Consectetur, nemo odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. A reiciendis quaerat accusantium nostrum et iste magni. Porro minus eaque natus, velit praesentium qui consequuntur possimus rem placeat iste amet eligendi!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptate non, minus ex, obcaecati labore sapiente saepe nihil nemo omnis hic dignissimos sequi delectus, aliquam vitae aliquid laborum veniam amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, quis ipsum eaque eum nihil aperiam libero repellat corrupti excepturi nam, deleniti necessitatibus praesentium blanditiis distinctio? Fuga cumque officiis accusamus debitis?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni consequuntur fugit in! Illum doloremque, est quam et nostrum accusamus suscipit excepturi maxime! Incidunt nisi quod tenetur, enim facilis omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio fuga repellat fugiat consequatur eos nihil voluptatem. Porro inventore earum neque perferendis at, iste atque sapiente deserunt? Consectetur, nemo odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. A reiciendis quaerat accusantium nostrum et iste magni. Porro minus eaque natus, velit praesentium qui consequuntur possimus rem placeat iste amet eligendi!</p>
 
              
         </article>
  
     </main>
-    <footer>
-        <p>Site desenvolvido por Ulisses</p>
+    <footer> 
+    
+            <section>
+                <div>
+                    <p>&copy;Todos os direitos reservados pela lei nº 9.610/1998</p>
+                </div>
+                <div>
+                    <p>consulte nossos <a href="termodeuso.html" target="_blank">Termos de uso</a></p>
+                </div>
+                <div>
+                    <p>Site desenvolvido por<a href="https://www.instagram.com/ulissesxz/"> Ulisses</a></p>
+                </div>
+            </section>
     </footer>
+    <script>
+
+function toggleMenu() {
+if (itens.style.display == 'block') {
+    itens.style.display = 'none'
+     
+} else {
+    itens.style.display = 'block'
+     itens.innderHTML = 'itens.style.display = block'
+}
+
+function tammanhoDiferente() {
+    if (window.innerWidth > 450) {
+    itens.style.display = 'block'
+    } else {
+        itens.style.display = 'none'
+    }
+    }
+
+}
+</script>
 </body>
 </html>
