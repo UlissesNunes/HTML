@@ -18,5 +18,3 @@ if (itens.style.display == 'block') {
 
 
 
- //itens.style.display = 'block'
-//alert('tocou')//
